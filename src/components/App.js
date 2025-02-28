@@ -2,7 +2,8 @@
 
 import React from 'react'
 import Header from './Header';
-
+import Preview from './Preview';
+import Form from './Form';
 const App = () => {
   {/* HOT module replacement --> when you savee file it automaticaly applied in chrome page in react called HMR */}
   
@@ -10,6 +11,10 @@ const App = () => {
   return(
       <div className="App">
         <Header Dark={true}> Professional Card Maker</Header>
+        <main>
+          <Form />
+          <Preview />
+        </main>
       </div>
   );
   //--------------> header>(h1>a{Logo})*nav>ul>li*4>a{Link $}

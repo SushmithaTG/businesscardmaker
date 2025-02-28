@@ -1,4 +1,10 @@
 //contains app related css files
 .App{
     @import "Header.scss";
+
+    main{
+        display: flex;  //content in same lines
+        @import "Form.scss";
+        @import "Preview.scss";
+    }
 }
