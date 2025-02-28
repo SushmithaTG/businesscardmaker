@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom/client';
 import App from "./components/App";
 import reportWebVitals from './reportWebVitals';
 
+// Created new file on Styles as index as it has similar name we call it here (not collapseing)
+import "./styles/index.scss";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
