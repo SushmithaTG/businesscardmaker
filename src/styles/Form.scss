@@ -1,4 +1,32 @@
 .Form{
         width: 50%;
         padding: 0 15px;
+
+        h2{
+                padding-bottom: 5px;
+                // Underloine Line with colour
+                border-bottom: 2px solid #ccf;
+                margin-bottom: 15px;
+                font-size: 1.5em;
+                font-weight: 300;
+        }
+        form{
+                label{
+                        // boxes to come in new line  and line by line
+                        display: block;
+                        margin-bottom: 10px;
+                        strong{
+                                font-weight: normal;
+                                display: block;
+                        }
+                        input{
+                                border: 1px solid #ccf;
+                                display: block;
+                                padding: 3px;
+                                width: 75%;
+                                border-radius: 3px;
+                                box-shadow: 0 0 5px #ccf;
+                        }
+                }
+        }
 }
