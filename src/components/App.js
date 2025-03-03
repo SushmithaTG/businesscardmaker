@@ -1,10 +1,20 @@
 //rafce  [react arrow function components with export]
 
-import React from 'react'
+import React, { useState } from 'react'
 import Header from './Header';
 import Preview from './Preview';
 import Form from './Form';
 const App = () => {
+  const [Name, setName] = useState("");
+  const [Destination, setDestination] = useState("");
+  const [Phone, setPhone] = useState("");
+  const [Email, setEmail] = useState("");
+  const Values={
+    Name,
+    Destination,
+    Phone,
+    Email
+  };
   {/* HOT module replacement --> when you savee file it automaticaly applied in chrome page in react called HMR */}
   
   // Div block is caalled as JSX
@@ -12,7 +22,7 @@ const App = () => {
       <div className="App">
         <Header Dark={true}> Professional Card Maker</Header>
         <main>
-          <Form />
+          <Form Values={Values} />
           <Preview />
         </main>
       </div>
