@@ -17,12 +17,24 @@ const App = () => {
   };
   {/* HOT module replacement --> when you savee file it automaticaly applied in chrome page in react called HMR */}
   
+  const handleChange=(e)=>{
+    // Objects
+    const setField = {
+      setName,
+      setDestination,
+      setPhone,
+      setEmail
+
+    }
+    setField["set" + e.target.name](e.target.value);
+    
+  }
   // Div block is caalled as JSX
   return(
       <div className="App">
         <Header Dark={true}> Professional Card Maker</Header>
         <main>
-          <Form Values={Values} />
+          <Form Values={Values} onChange={handleChange} />
           <Preview />
         </main>
       </div>
