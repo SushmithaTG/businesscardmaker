@@ -16,16 +16,13 @@ const Form = ({onChange,Values}) => {
         key={key} 
         />
       ))}
-       
-      {/* INSTEAD OF CREATION THESE 3 LINE I CREATED ABOVE LINE INTO ARRAY TO MAKE IT SIMPLE */}
+       {/* INSTEAD OF CREATION THESE 3 LINE I CREATED ABOVE LINE INTO ARRAY TO MAKE IT SIMPLE */}
 
         {/* <FormElement ID="Name" Label="Name" />
         <FormElement ID="Destination" Label="Destination" />
         <FormElement ID="Phone" Label="Phone" />
          */}
-
-
-
+         
     </form>
     </section>;
     
