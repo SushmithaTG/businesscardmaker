@@ -20,13 +20,13 @@ const App = () => {
   const handleChange=(e)=>{
     // Objects
     const setField = {
-      setName,
-      setDestination,
-      setPhone,
-      setEmail
+      Name: setName,
+      Destination: setDestination,
+      Phone: setPhone,
+      Email: setEmail,
 
     }
-    setField["set" + e.target.name](e.target.value);
+    setField[e.target.name](e.target.value);
     
   }
   // Div block is caalled as JSX
