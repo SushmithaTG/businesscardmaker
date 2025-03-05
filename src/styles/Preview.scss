@@ -10,4 +10,21 @@
                 display: inline-block;
                 margin-bottom: 15px;
         }
+        &-Actions{
+                button{
+                        // some space between all buttons
+                        margin: 5px;
+
+                        border: 2px solid #ccf;
+                        background-color: #eff;
+                        // size paddings
+                        padding: 5px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        // colore for arrow pointing (hover)
+                        &:hover{
+                                background-color: #ccf;
+                        }
+                }
+        }
 }

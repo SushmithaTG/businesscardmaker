@@ -1,13 +1,7 @@
 //contains app related css files
 .App{
     @import "Header.scss";
-    pre{
-        border: ipx solid #ccc;
-        background-color: #f5f5f5;
-        border-radius: 3px;
-        line-height: 1;
-        font-family: "Operator Mono",'Courier New', Courier, monospace;
-    }
+    
     main{
         display: flex;  //content in same lines
         // common style for all so we put it instead of Form.js
